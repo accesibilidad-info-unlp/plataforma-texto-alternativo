@@ -1,6 +1,6 @@
 ---
 layout: layouts/base.njk
-title: Listado de posts
+title: Catálogo
 ---
 
 ## Material disponible
@@ -8,14 +8,11 @@ title: Listado de posts
 Acá podés encontrar todos los textos alternativos publicados en el sitio.
 
 <ul>
-    {% for post in collections.posts %}
+    {%- for post in collections.posts %}
     <li>
         <a href="{{ post.url }}">
-            {{ post.data.title }}
+        {{ post.data.title }}
         </a>
     </li>
-    {% endfor %}
+    {%- endfor %}
 </ul>
-
-
-

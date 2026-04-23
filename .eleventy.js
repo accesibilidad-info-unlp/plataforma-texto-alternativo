@@ -1,6 +1,8 @@
 export default function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy({
-        "src/css": "css"
+        "src/css": "css",
+        "src/js": "js",
+        "src/assets": "assets"
     });
 
     eleventyConfig.addCollection("posts", function (collectionApi) {
