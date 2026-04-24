@@ -3,16 +3,14 @@ layout: layouts/base.njk
 title: Catálogo
 ---
 
-## Material disponible
+{% from "partials/catalog-tree.njk" import renderTree %}
 
-Acá podés encontrar todos los textos alternativos publicados en el sitio.
+## Navegación por materia y año
 
-<ul>
-    {%- for post in collections.posts %}
-    <li>
-        <a href="{{ post.url }}">
-        {{ post.data.title }}
-        </a>
-    </li>
-    {%- endfor %}
-</ul>
+Para acceder a los textos alternativos, desplegá cada materia y luego el año correspondiente.
+
+<div class="card shadow-sm border-0">
+  <div class="card-body">
+    {{ renderTree(collections.catalogTree) }}
+  </div>
+</div>

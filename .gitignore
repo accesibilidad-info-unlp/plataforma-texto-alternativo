@@ -1,3 +1,5 @@
 .idea
+.codex
 .env
 node_modules
+_site
