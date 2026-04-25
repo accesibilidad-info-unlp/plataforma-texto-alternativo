@@ -20,6 +20,6 @@
   "homepage": "https://github.com/mikrod-info/plataforma-texto-alternativo#readme",
   "dependencies": {
     "@11ty/eleventy": "^3.1.5",
-    "bootstrap": "^5.3.8"
+    "@picocss/pico": "^2.1.1"
   }
 }

@@ -1,34 +1,38 @@
-<nav class="navbar navbar-expand-lg bg-light" aria-label="Navegación principal">
-    <div class="container">
-        <a class="navbar-brand d-flex align-items-center gap-2" href="/">
-            <span class="logo" aria-hidden="true">[logo]</span>
-            <span>Texto alternativo</span>
-        </a>
+<!--<nav class="container" aria-label="Navegación principal">-->
+<!--    <ul>-->
+<!--        <li><strong>Texto alternativo</strong></li>-->
+<!--    </ul>-->
 
-        <button
-                class="navbar-toggler"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#mainNavbar"
-                aria-controls="mainNavbar"
-                aria-expanded="false"
-                aria-label="Alternar navegación"
-        >
-            <span class="navbar-toggler-icon"></span>
-        </button>
+<!--    &lt;!&ndash; Desktop &ndash;&gt;-->
+<!--    <ul class="desktop-menu">-->
+<!--        <li><a href="{{ '/' | url }}">Inicio</a></li>-->
+<!--        <li><a href="{{ '/catalogo/' | url }}">Catálogo</a></li>-->
+<!--        <li><a href="{{ '/contacto/' | url }}">Contacto</a></li>-->
+<!--    </ul>-->
 
-        <div class="collapse navbar-collapse" id="mainNavbar">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link" href="{{ '/' | url }}">Inicio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="{{ '/catalogo/' | url }}">Catálogo</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="{{ '/contacto/' | url }}">Contacto</a>
-                </li>
-            </ul>
-        </div>
-    </div>
+<!--    &lt;!&ndash; Mobile &ndash;&gt;-->
+<!--    <details class="mobile-menu">-->
+<!--        <summary>☰</summary>-->
+<!--        <ul>-->
+<!--            <li><a href="{{ '/' | url }}">Inicio</a></li>-->
+<!--            <li><a href="{{ '/catalogo/' | url }}">Catálogo</a></li>-->
+<!--            <li><a href="{{ '/contacto/' | url }}">Contacto</a></li>-->
+<!--        </ul>-->
+<!--    </details>-->
+<!--</nav>-->
+
+<nav class="container">
+    <ul>
+        <li><strong>Mi sitio</strong></li>
+    </ul>
+
+    <details class="menu">
+        <summary aria-label="Abrir menú">☰</summary>
+
+        <ul>
+            <li><a href="/">Inicio</a></li>
+            <li><a href="/about">Acerca</a></li>
+            <li><a href="/qr">Textos QR</a></li>
+        </ul>
+    </details>
 </nav>
