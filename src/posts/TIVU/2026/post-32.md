@@ -24,14 +24,3 @@ Peña, Barreda, Cortelezzi. Deben ser recordadas por haber demostrado que podía
 
 Debido a los estereotipos de género y los "roles" impuestos por la sociedad. Es necesario dejarlos de lado para que todos los niños puedan tener las mismas oportunidades para acceder a la tecnología, ayudando a construir un futuro más igualitario en el mundo de la programación.
 
-## Integrantes
-
-- Cantero
-- Damelio
-- De Caro (2)
-- Faguaga
-- Freccero
-- Murakami
-- Remondegui
-- Rodriguez
-

@@ -20,9 +20,3 @@ Lynn Conway, nacida en 1938 y fallecida en 2024.
 
 A la derecha del texto, la fotografía de Lynn Conway con cabello largo y rubio, vistiendo una blusa estampada en tonos marrones y rosados. Lleva un collar con un colgante turquesa.
 
-## Integrantes
-
-- Visitin Bostamente Leguizamon
-- Ivan Romero
-- Pedro Cara
-- Milton Guerra

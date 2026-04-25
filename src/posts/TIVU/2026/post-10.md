@@ -36,14 +36,3 @@ como carrera universitaria.
 - Impulso el desarrollo de la informática
 como campo científico en Argentina
 
-
-## Integrantes
-
-- Sequeira Débora
-- Escobar Valentin
-- Chorolqui Isabel
-- Domingues Mateo
-- Jorge Joaquin
-- Barrontini Marco
-- Aguero Sebastian
-

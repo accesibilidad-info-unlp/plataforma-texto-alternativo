@@ -13,11 +13,3 @@ Ganadora del premio Turing, que lleva el nombre del padre de la ciencia computac
 
 La imagen presenta la foto de Frances E. Allen sonriente con gafas, tiene el cabello canoso y lleva puesto un suéter azul oscuro y una chaqueta celeste.
 
-## Integrantes
-
-- Sánchez
-- Ávalos
-- Díaz
-- Quispe
-- Yurkevich
-

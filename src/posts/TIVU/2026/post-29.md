@@ -11,8 +11,3 @@ La imagen es un dibujo de Mafalda, vistiendo un vestido verde con rayas y un laz
 
 Mafalda tiene una expresión reflexiva y se muestra un globo de pensamiento que dice: "Si las mujeres fueron las pioneras de la informática... ¿Por qué ahora dicen que no es para ellas?"
 
-## Integrantes
-
-- De León
-- Pagano
-- Ferreyra

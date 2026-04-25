@@ -15,9 +15,3 @@ Por qué dejaron de estudiar. Principalmente por la instalación de estereotipos
 
 **8M Visibilicemos la desigualdad de género**
 
-## Integrantes
-
-- Delia Zelaya
-- Maite García
-- Godoy Ezequiel
-- Horacio Castro

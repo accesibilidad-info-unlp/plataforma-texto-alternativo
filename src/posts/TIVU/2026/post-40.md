@@ -50,11 +50,3 @@ title: ¿Por qué las mujeres 'dejaron' de programar?
    - La única forma de superar esto es que los esfuerzos para atraer a mujeres no deben ser solo en la escuela secundaria, sino también en la primaria.
    - Esto pondría en ventaja el rol de la mujer en estos campos, devolviendo un poco del nuevo estereotipo. Daría lugar a la validación y reconocimiento de las aspiraciones.
 
-## Integrantes
-
-- Ramiro Nascimento
-- Luciano Machicote
-- Ponce Valentina
-- Jalil Marco
-- Rocio Villarrubia
-- Arca Luciano

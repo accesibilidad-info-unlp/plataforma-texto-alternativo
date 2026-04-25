@@ -22,13 +22,3 @@ A su izquierda, hay un dibujo de un representando a la UBA.
 
 A su derecha, la bandera argentina ondeante.
 
-## Integrantes
-  
-- Franco Gomez
-- Lucho Olivera
-- Enzo Rodriguez
-- Santiago Reyes
-- Franco Aldama
-- Gonzalo Ayame
-- Valentin Funes
-- Santiago Vilba.

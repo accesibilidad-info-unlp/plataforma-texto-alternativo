@@ -23,11 +23,3 @@ Al lado derecho de la caricatura de Rebeca Cherep:
 - Científica
 - Computación
 
-## Integrantes
-
-Jackson M.
-Mario Facundo
-Fernando Patarón
-Federico A.
-
-

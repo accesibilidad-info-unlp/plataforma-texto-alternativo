@@ -29,10 +29,3 @@ Durante la Segunda Guerra Mundial desarrolló, junto al compositor George Anthei
 
 Su invento fue la base de tecnologías modernas como el Wifi, Bluetooth y GPS, aunque su aporte no fue reconocido durante muchos años.
 
-## Integrantes
-
-- Nicolás Escalvo
-- Neuquén Patricio
-- Franco Durán
-- Julio Zamorano
-- Barbelith Iturras

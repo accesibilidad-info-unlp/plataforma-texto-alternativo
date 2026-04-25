@@ -23,14 +23,3 @@ A su la derecha, hay un retrato de Ada Lovelace sobre un fondo rojo. Viste un ve
 
 El cartel transmite información sobre la vida y contribuciones de Ada Lovelace al campo de la informática, destacando su papel como pionera en programación.
 
-## Integrantes
-
-- Antonio Rojas
-- Guzman Leonel
-- Mendoza Lalo
-- Aguilar Rodrigo
-- Gonzalez Marcos Liam
-- Gonzano Dario
-- Wanwell Ignano
-- Salvatierra Joaquín
-- Valdivia Abranza

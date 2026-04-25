@@ -31,10 +31,3 @@ Al centro, un dibujo de un marcador de ubicación sobre un mapa, con la etiqueta
 
 A la derecha, el símbolo de Bluetooth.
 
-## Integrantes
-Casas Macía Tobias
-Ando Tomás
-Salekar Lionel
-Barrena Daniel
-Lybimetzí Jan
-Arduin Palliser Thomas

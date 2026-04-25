@@ -36,7 +36,3 @@ En la parte inferior central, hay dos fechas en letras verdes:
 - Tomó clases con la programadora Cicely Popplewell y Ernesto García Camarero.
 - Continuó sus estudios en Manchester.
 
-## Integrantes
-- Amira Plaza
-- Zuccareck Florencia
-- Yañi Maria

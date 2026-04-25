@@ -19,15 +19,3 @@ Al principio de la informática muchas mujeres eran programadoras, cuando la inf
 
 La tecnología y la ciencia pueden ayudar a crear sociedades más igualitarias al facilitar el acceso a la educación, visibilizar el trabajo de las mujeres en la historia de la ciencia y promover la participación de todas las personas en el desarrollo tecnológico.
 
-## Integrantes
-
-- Arévalo Alexis
-- Valencia Losnna
-- Franco Calva Samio
-- Franco Montero Larisa
-- Ticante Wilfrido
-- Romero Casildo Arely
-- Bravo Dany
-- Yolotzin Abimelec
-- Roblero Berman
-- Peraza Wendy Nicole

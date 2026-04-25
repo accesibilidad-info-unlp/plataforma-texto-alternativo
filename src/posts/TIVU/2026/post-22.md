@@ -27,10 +27,3 @@ Antes que el hombre fue la mayoría en la informática, ella en 1952 creó el pr
 
 Lo que derivó a la vez en la creación del lenguaje COBOL.
 
-## Integrantes
-
-- Lautaro Serra
-- Tobías Puchetti
-- Enzo Vera
-- Lucas Bequis
-- Franco Bartolomé

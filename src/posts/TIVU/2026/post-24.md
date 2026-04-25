@@ -42,7 +42,3 @@ Recibió varias condecoraciones entre ellas, el premio a la ley espacial excepci
 
 Hay un dibujo de Margaret Hamilton con cabello rubio largo y gafas, sonriendo mientras muestra la pila de software impreso que mide tanto como ella. Ella está vestida con un suéter de rayas verdes. La imagen contribuye a la representación de Margaret Hamilton con una actitud amigable y rodeada de su legado en programación y desarrollo de software.
 
-## Integrantes
-- Osiris Acuña
-- Luis Gustavo
-- Karina

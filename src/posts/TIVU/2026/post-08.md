@@ -39,11 +39,3 @@ Dibujo de una computadora de diseño antiguo hecho a lápiz.
 Un cuadrado con una W, probablemente representando a un disquette.
 Y el número 0101.
 
-## Integrantes
-
-- Kuchaski
-- Musacchio
-- Kelly
-- Giacomini
-- Musarra
-

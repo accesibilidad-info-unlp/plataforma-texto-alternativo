@@ -33,10 +33,3 @@ Debajo del título, al centro, hay una ilustración de una mujer con gafas y el 
 - Igualdad laboral.
 - Educación tecnológica para mujeres.
 
-## Integrantes
-
-- Bovera Valentina
-- Kiffel Mariano
-- Lator Sarah
-- García Celeste
-- Di Santo Lucas
