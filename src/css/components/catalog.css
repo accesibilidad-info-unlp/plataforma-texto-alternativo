@@ -1,8 +1,5 @@
 .catalog-wrapper {
-    border: 1px solid var(--surface-soft-border);
-    border-radius: calc(var(--pico-border-radius) * 2);
     padding: 1rem 1.5rem;
-    background: var(--catalog-bg);
 }
 
 .catalog-tree,
@@ -15,7 +12,6 @@
 .catalog-tree--nested {
     margin-left: 1rem;
     padding-left: 0.85rem;
-    border-left: 1px dashed var(--catalog-line);
 }
 
 .catalog-node {

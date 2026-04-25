@@ -1,7 +1,5 @@
 .site-footer {
-    border-top: 1px solid var(--surface-soft-border);
     padding: 1rem 1rem 2rem 1rem;
-    background: var(--surface-soft);
     gap: 1.25rem;
 }
 
