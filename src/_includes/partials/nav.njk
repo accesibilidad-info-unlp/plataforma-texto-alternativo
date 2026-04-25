@@ -1,38 +1,23 @@
-<!--<nav class="container" aria-label="Navegación principal">-->
-<!--    <ul>-->
-<!--        <li><strong>Texto alternativo</strong></li>-->
-<!--    </ul>-->
-
-<!--    &lt;!&ndash; Desktop &ndash;&gt;-->
-<!--    <ul class="desktop-menu">-->
-<!--        <li><a href="{{ '/' | url }}">Inicio</a></li>-->
-<!--        <li><a href="{{ '/catalogo/' | url }}">Catálogo</a></li>-->
-<!--        <li><a href="{{ '/contacto/' | url }}">Contacto</a></li>-->
-<!--    </ul>-->
-
-<!--    &lt;!&ndash; Mobile &ndash;&gt;-->
-<!--    <details class="mobile-menu">-->
-<!--        <summary>☰</summary>-->
-<!--        <ul>-->
-<!--            <li><a href="{{ '/' | url }}">Inicio</a></li>-->
-<!--            <li><a href="{{ '/catalogo/' | url }}">Catálogo</a></li>-->
-<!--            <li><a href="{{ '/contacto/' | url }}">Contacto</a></li>-->
-<!--        </ul>-->
-<!--    </details>-->
-<!--</nav>-->
-
-<nav class="container">
+<nav class="container site-nav" aria-label="Navegación principal" data-nav data-open="false">
     <ul>
-        <li><strong>Mi sitio</strong></li>
+        <li><strong>Texto alternativo</strong></li>
     </ul>
 
-    <details class="menu">
-        <summary aria-label="Abrir menú">☰</summary>
+    <button
+        type="button"
+        class="menu-toggle"
+        data-nav-toggle
+        aria-expanded="false"
+        aria-controls="primary-navigation"
+        aria-label="Menú principal"
+    >
+        <span aria-hidden="true">☰</span>
+        <span class="visually-hidden">Abrir o cerrar menú principal</span>
+    </button>
 
-        <ul>
-            <li><a href="/">Inicio</a></li>
-            <li><a href="/about">Acerca</a></li>
-            <li><a href="/qr">Textos QR</a></li>
-        </ul>
-    </details>
+    <ul id="primary-navigation" class="primary-menu" data-nav-menu>
+        <li><a href="{{ '/' | url }}">Inicio</a></li>
+        <li><a href="{{ '/catalogo/' | url }}">Catálogo</a></li>
+        <li><a href="{{ '/contacto/' | url }}">Contacto</a></li>
+    </ul>
 </nav>
