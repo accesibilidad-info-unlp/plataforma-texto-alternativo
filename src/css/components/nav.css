@@ -1,5 +1,16 @@
 .site-nav {
     position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-controls {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
 }
 
 .menu-toggle {
@@ -9,19 +20,17 @@
 .primary-menu {
     display: none;
     list-style: none;
-    padding-left: 0;
     margin: 0.5rem 0 0;
 }
 
 .site-nav[data-open="true"] .primary-menu {
     display: flex;
     flex-direction: column;
-    gap: 0.25rem;
     position: absolute;
     top: calc(100% + 0.35rem);
     right: 0;
     min-width: 12rem;
-    padding: 0.6rem;
+    padding: 0;
     border: 1px solid var(--pico-muted-border-color);
     border-radius: var(--pico-border-radius);
     background: var(--pico-background-color);
@@ -30,15 +39,15 @@
 
 @media (min-width: 768px) {
 
-    .menu-toggle {
+    .nav-controls .menu-toggle {
         display: none;
     }
 
     .primary-menu {
         display: flex;
         flex-direction: row;
-        gap: 1rem;
-        margin: 0;
+        flex-shrink: 0;
+        margin: 0 0.5rem;
         position: static;
         min-width: auto;
         padding: 0;

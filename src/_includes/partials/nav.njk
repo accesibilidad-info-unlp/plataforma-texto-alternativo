@@ -1,31 +1,21 @@
-<nav class="container site-nav" aria-label="Navegación principal" data-nav data-open="false">
-    <ul>
-        <li>
-            <a href="{{ '/' | url }}" class="secondary">
-                <img src="{{ '/assets/images/accesibilidad-color.png' | url }}"
-                     alt="Logo de accesibilidad"
-                     width="60"
-                >
-            </a>
-        </li>
-        <li><strong>Texto alternativo</strong></li>
-    </ul>
+<nav class="container site-nav"
+     aria-label="Navegación principal"
+     data-nav data-open="false">
 
-    <button
-        type="button"
-        class="menu-toggle"
-        data-nav-toggle
-        aria-expanded="false"
-        aria-controls="primary-navigation"
-        aria-label="Menú principal"
-    >
-        <span aria-hidden="true">☰</span>
-        <span class="visually-hidden">Abrir o cerrar menú principal</span>
-    </button>
+    {%- include "partials/logo-brand.njk" -%}
 
-    <ul id="primary-navigation" class="primary-menu" data-nav-menu>
-        <li><a href="{{ '/' | url }}">Inicio</a></li>
-        <li><a href="{{ '/catalogo/' | url }}">Catálogo</a></li>
-        <li><a href="{{ '/contacto/' | url }}">Contacto</a></li>
-    </ul>
+    <div class="nav-controls">
+
+        {%- include "partials/theme-switch.njk" -%}
+
+        {%- include "partials/nav-controls.njk" -%}
+
+        <ul id="primary-navigation" class="primary-menu" data-nav-menu>
+            <li><a href="{{ '/' | url }}">Inicio</a></li>
+            <li><a href="{{ '/catalogo/' | url }}">Catálogo</a></li>
+            <li><a href="{{ '/contacto/' | url }}">Contacto</a></li>
+        </ul>
+    </div>
+
+
 </nav>
