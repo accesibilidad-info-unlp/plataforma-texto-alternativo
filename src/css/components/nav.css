@@ -37,6 +37,12 @@
     z-index: 20;
 }
 
+.header-logo {
+    height: 2.5rem;
+    width: auto;
+    object-fit: contain;
+}
+
 @media (min-width: 768px) {
 
     .nav-controls .menu-toggle {
