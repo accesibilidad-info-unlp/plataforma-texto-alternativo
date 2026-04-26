@@ -44,9 +44,3 @@ footer {
 header { grid-area: header; }
 main { grid-area: main; }
 footer { grid-area: footer; }
-
-@media (prefers-color-scheme: dark) {
-    :root {
-        color-scheme: dark;
-    }
-}

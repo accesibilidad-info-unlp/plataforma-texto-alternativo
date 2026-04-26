@@ -1,11 +1,6 @@
-.theme-switch {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.5rem;
-    cursor: pointer;
-    margin: 0 0.5rem;
-}
-
-.theme-switch input {
-    cursor: pointer;
+#theme-toggle {
+    background: transparent;
+    color: var(--pico-secondary);
+    border: 1px solid var(--pico-border-color);
+    font-size: 0.8rem;
 }

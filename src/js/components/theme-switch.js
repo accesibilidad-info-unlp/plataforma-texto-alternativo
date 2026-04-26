@@ -1,5 +1,5 @@
 export function initThemeSwitch() {
-    const toggle = document.getElementById("theme-toggle");
+    const button = document.getElementById("theme-toggle");
     const iconStatus = document.getElementById("theme-status-icon");
     const status = document.getElementById("theme-status");
 
@@ -12,23 +12,21 @@ export function initThemeSwitch() {
 
     applyTheme(theme);
 
-    toggle.addEventListener("change", () => {
-        const newTheme = toggle.checked ? "dark" : "light";
-        localStorage.setItem("theme", newTheme);
-        applyTheme(newTheme);
-    });
+    button.addEventListener("click", (event) => {
+        theme = theme === "dark" ? "light" : "dark";
+        localStorage.setItem("theme", theme);
+        applyTheme(theme);
+    })
 
     function applyTheme(theme) {
         document.documentElement.setAttribute("data-theme", theme);
 
         if (theme === "dark") {
-            toggle.checked = true;
-            status.textContent = "Modo oscuro activado";
-            iconStatus.textContent = "🌜";
-        } else {
-            toggle.checked = false;
-            status.textContent = "Modo claro activado";
             iconStatus.textContent = "🌞";
+            status.textContent = "Cambiar a claro";
+        } else {
+            iconStatus.textContent = "🌜";
+            status.textContent = "Cambiar a oscuro";
         }
     }
 }
