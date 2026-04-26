@@ -1,6 +1,7 @@
-#theme-toggle {
+.theme-switch-btn {
     background: transparent;
     color: var(--pico-secondary);
     border: 1px solid var(--pico-border-color);
     font-size: 0.8rem;
+    justify-self: end;
 }

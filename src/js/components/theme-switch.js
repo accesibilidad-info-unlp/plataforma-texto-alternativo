@@ -1,6 +1,6 @@
 export function initThemeSwitch() {
-    const button = document.getElementById("theme-toggle");
-    const iconStatus = document.getElementById("theme-status-icon");
+    const button = document.getElementById("theme-switch-btn");
+    const emoji = document.getElementById("theme-status-icon");
     const status = document.getElementById("theme-status");
 
     let theme = localStorage.getItem("theme");
@@ -22,10 +22,10 @@ export function initThemeSwitch() {
         document.documentElement.setAttribute("data-theme", theme);
 
         if (theme === "dark") {
-            iconStatus.textContent = "🌞";
+            emoji.textContent = "🌞";
             status.textContent = "Cambiar a claro";
         } else {
-            iconStatus.textContent = "🌜";
+            emoji.textContent = "🌜";
             status.textContent = "Cambiar a oscuro";
         }
     }

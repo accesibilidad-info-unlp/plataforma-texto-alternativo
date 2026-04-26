@@ -2,7 +2,8 @@
 @import "./base.css";
 @import "./utilities.css";
 
-@import "./components/nav.css";
-@import "./components/footer.css";
-@import "./components/catalog.css";
+@import "./components/header.css";
 @import "./components/theme-switch.css";
+@import "./components/nav.css";
+@import "./components/catalog.css";
+@import "./components/footer.css";

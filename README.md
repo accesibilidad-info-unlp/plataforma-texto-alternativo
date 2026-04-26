@@ -145,7 +145,7 @@ Texto
     │       ├── footer.njk
     │       ├── header.njk
     │       ├── head.njk
-    │       ├── logo-brand.njk
+    │       ├── brand.njk
     │       ├── nav-controls.njk
     │       ├── nav.njk
     │       └── theme-switch.njk

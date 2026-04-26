@@ -1,0 +1,60 @@
+.header {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    grid-template-areas: "brand switch nav";
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.brand-container { grid-area: brand; }
+.theme-switch-btn { grid-area: switch; }
+.navbar { grid-area: nav; }
+
+.brand-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5rem;
+}
+
+.brand-logo {
+    height: 100%;
+    min-width: 60px;
+    object-fit: contain;
+}
+
+.brand-text {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+
+    .header {
+        grid-template-columns: 1fr auto;
+        grid-template-areas:
+            "brand nav"
+            "brand switch";
+        row-gap: 0.5rem;
+        column-gap: 1rem;
+        align-items: end;
+    }
+
+    .theme-switch-btn {
+        justify-self: end;
+        align-self: end;
+    }
+
+    .navbar {
+        justify-self: end;
+        align-self: end;
+        width: 100%;
+    }
+
+    .brand-container {
+        flex-direction: column;
+        justify-self: start;
+        align-self: baseline;
+    }
+}
