@@ -1,1 +1,10 @@
 _site
+node_modules
+.gitignore
+.git
+.github
+.idea
+README.md
+Dockerfile*
+docker-compose.yml
+*.log
