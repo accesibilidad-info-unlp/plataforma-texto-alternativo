@@ -1,6 +1,8 @@
 ---
 layout: layouts/post.njk
 title: UNLP Informática
+cover: cover.jpg
+qr: qr.png
 ---
 
 # UNLP Informática

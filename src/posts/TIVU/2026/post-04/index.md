@@ -1,6 +1,8 @@
 ---
 layout: layouts/post.njk
 title: ¿Por qué hay cada vez menos mujeres en las TIC?
+cover: cover.jpg
+qr: qr.png
 ---
 
 # ¿Por qué hay cada vez menos mujeres en las TIC?

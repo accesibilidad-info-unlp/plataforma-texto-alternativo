@@ -1,6 +1,8 @@
 ---
 layout: layouts/post.njk
 title: Cecilia Berdichevsky
+cover: cover.jpg
+qr: qr.png
 ---
 
 # Cecilia Berdichevsky

@@ -1,6 +1,8 @@
 ---
 layout: layouts/post.njk
 title: El símbolo del feminismo
+cover: cover.jpg
+qr: qr.png
 ---
 
 # El símbolo del feminismo

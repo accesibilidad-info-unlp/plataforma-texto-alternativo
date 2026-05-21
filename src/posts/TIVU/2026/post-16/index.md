@@ -1,6 +1,8 @@
 ---
 layout: layouts/post.njk
 title: Rebeca Cherep De Guber
+cover: cover.jpg
+qr: qr.png
 ---
 
 # Rebeca Cherep De Guber

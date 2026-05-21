@@ -1,6 +1,8 @@
 ---
 layout: layouts/post.njk
 title: Mujeres de la Informática
+cover: cover.jpg
+qr: qr.png
 ---
 
 # Mujeres de la Informática

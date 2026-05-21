@@ -1,6 +1,8 @@
 ---
 layout: layouts/post.njk
 title: Género en Informática
+cover: cover.jpg
+qr: qr.png
 ---
 
 # Género en Informática

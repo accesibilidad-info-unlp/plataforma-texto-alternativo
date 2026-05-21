@@ -1,6 +1,8 @@
 ---
 layout: layouts/post.njk
 title: Jude Milhon
+cover: cover.jpg
+qr: qr.png
 ---
 
 # Jude Milhon

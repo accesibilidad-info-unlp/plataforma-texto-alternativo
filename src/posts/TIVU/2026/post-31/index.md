@@ -1,6 +1,8 @@
 ---
 layout: layouts/post.njk
 title: Mujeres programadoras
+cover: cover.jpg
+qr: qr.png
 ---
 
 # Mujeres programadoras

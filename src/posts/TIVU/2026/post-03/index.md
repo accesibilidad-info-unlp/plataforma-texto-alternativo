@@ -1,6 +1,8 @@
 ---
 layout: layouts/post.njk
 title: Por qué hay más hombres que mujeres
+cover: cover.jpg
+qr: qr.png
 ---
 
 # Por qué hay más hombres que mujeres

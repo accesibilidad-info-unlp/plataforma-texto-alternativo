@@ -1,6 +1,8 @@
 ---
 layout: layouts/post.njk
 title: Lynn Conway
+cover: cover.jpg
+qr: qr.png
 ---
 
 # Lynn Conway

@@ -1,6 +1,8 @@
 ---
 layout: layouts/post.njk
 title: Diversidad de Género
+cover: cover.jpg
+qr: qr.png
 ---
 
 # Diversidad de Género

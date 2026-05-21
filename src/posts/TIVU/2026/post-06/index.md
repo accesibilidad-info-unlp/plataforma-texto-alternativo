@@ -1,6 +1,8 @@
 ---
 layout: layouts/post.njk
 title: Las chicas necesitan módems
+cover: cover.jpg
+qr: qr.png
 ---
 
 # Las chicas necesitan módems

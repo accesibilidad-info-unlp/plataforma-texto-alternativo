@@ -1,6 +1,8 @@
 ---
 layout: layouts/post.njk
 title: Mujeres en el campo de la Informática
+cover: cover.jpg
+qr: qr.png
 ---
 
 # Mujeres en el campo de la Informática

@@ -1,6 +1,8 @@
 ---
 layout: layouts/post.njk
 title: Las mujeres y la Informática
+cover: cover.jpg
+qr: qr.png
 ---
 
 # Las mujeres y la Informática

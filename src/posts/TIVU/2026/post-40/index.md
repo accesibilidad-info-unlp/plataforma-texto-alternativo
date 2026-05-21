@@ -1,6 +1,8 @@
 ---
 layout: layouts/post.njk
 title: ¿Por qué las mujeres 'dejaron' de programar?
+cover: cover.jpg
+qr: qr.png
 ---
 
 # ¿Por qué las mujeres 'dejaron' de programar?

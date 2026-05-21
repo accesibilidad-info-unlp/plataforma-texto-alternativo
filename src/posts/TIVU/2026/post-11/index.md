@@ -1,6 +1,8 @@
 ---
 layout: layouts/post.njk
 title: Ada Lovelace
+cover: cover.jpg
+qr: qr.png
 ---
 
 # Ada Lovelace

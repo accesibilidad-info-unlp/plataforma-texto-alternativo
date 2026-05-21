@@ -1,6 +1,8 @@
 ---
 layout: layouts/post.njk
 title: Mujeres, ciencia y tecnología
+cover: cover.jpg
+qr: qr.png
 ---
 
 # Mujeres, ciencia y tecnología

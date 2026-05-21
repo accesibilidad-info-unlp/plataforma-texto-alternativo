@@ -1,6 +1,8 @@
 ---
 layout: layouts/post.njk
 title: Grace Hopper
+cover: cover.jpg
+qr: qr.png
 ---
 
 # Grace Hopper

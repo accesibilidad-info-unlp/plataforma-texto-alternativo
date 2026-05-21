@@ -1,6 +1,8 @@
 ---
 layout: layouts/post.njk
 title: La relación entre el género y las TICS
+cover: cover.jpg
+qr: qr.png
 ---
 
 # La relación entre el género y las TICS

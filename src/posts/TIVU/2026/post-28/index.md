@@ -1,6 +1,8 @@
 ---
 layout: layouts/post.njk
 title: Género
+cover: cover.jpg
+qr: qr.png
 ---
 
 # Género

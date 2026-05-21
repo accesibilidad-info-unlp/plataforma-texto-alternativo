@@ -1,6 +1,8 @@
 ---
 layout: layouts/post.njk
 title: Mujeres pioneras en la Informática
+cover: cover.jpg
+qr: qr.png
 ---
 
 # Mujeres pioneras en la Informática

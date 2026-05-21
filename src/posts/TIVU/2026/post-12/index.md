@@ -1,6 +1,8 @@
 ---
 layout: layouts/post.njk
 title: Propuestas sin estereotipos
+cover: cover.jpg
+qr: qr.png
 ---
 
 # Propuestas sin estereotipos

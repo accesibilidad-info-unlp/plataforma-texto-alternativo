@@ -1,6 +1,8 @@
 ---
 layout: layouts/post.njk
 title: Margaret Hamilton
+cover: cover.jpg
+qr: qr.png
 ---
 
 # Margaret Hamilton

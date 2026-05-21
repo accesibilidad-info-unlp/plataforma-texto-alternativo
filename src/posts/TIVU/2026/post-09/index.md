@@ -1,6 +1,8 @@
 ---
 layout: layouts/post.njk
 title: Frances E. Allen
+cover: cover.jpg
+qr: qr.png
 ---
 
 # Frances E. Allen

@@ -1,6 +1,8 @@
 ---
 layout: layouts/post.njk
 title: Ada Lovelace, Primera Programadora
+cover: cover.jpg
+qr: qr.png
 ---
 
 # Ada Lovelace, Primera Programadora

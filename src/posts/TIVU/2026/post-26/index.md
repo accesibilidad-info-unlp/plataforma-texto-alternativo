@@ -1,6 +1,8 @@
 ---
 layout: layouts/post.njk
 title: Igualdad en la Ciencia y la Tecnología
+cover: cover.jpg
+qr: qr.png
 ---
 
 # Igualdad en la Ciencia y la Tecnología
