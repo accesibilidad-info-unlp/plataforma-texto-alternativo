@@ -5,7 +5,6 @@ export  function buildCatalogTree(collectionApi) {
     const root = new TreeNode({
         key: "root",
         label: "Catalogo",
-        level: "root",
     });
 
     const files = collectionApi.getFilteredByGlob("src/posts/**/*.md");
@@ -21,8 +20,7 @@ export  function buildCatalogTree(collectionApi) {
         const filteredParts = parts.filter((p) => !isPostFolder(p));
 
         filteredParts.forEach((segment, index) => {
-            const level = index === 0 ? "materia" : "anio";
-            node = node.getOrCreateChild(segment, segment, level);
+            node = node.getOrCreateChild(segment, segment);
         });
 
         if (fileName === "README.md") {

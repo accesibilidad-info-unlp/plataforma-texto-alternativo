@@ -2,15 +2,14 @@ export class TreeNode {
     constructor({ key, label, level }) {
         this.key = key;
         this.label = label;
-        this.level = level;
         this.childrenMap = new Map();
         this.index = null;
         this.posts = [];
     }
 
-    getOrCreateChild(key, label, level) {
+    getOrCreateChild(key, label) {
         if (!this.childrenMap.has(key)) {
-            this.childrenMap.set(key, new TreeNode({ key, label, level }));
+            this.childrenMap.set(key, new TreeNode({ key, label }));
         }
         return this.childrenMap.get(key);
     }
