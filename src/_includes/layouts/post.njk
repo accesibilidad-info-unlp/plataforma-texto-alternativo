@@ -9,15 +9,26 @@
 
 <main id="main" class="container">
     <article>
-        {% if image %}
-        <img src="{{ image }}" alt="{{ title }}">
-        {% endif %}
+        <img src="{{ image }}"
+             alt="{{ title }}">
 
         {{ content | safe }}
 
-        {% if qr %}
-        <img src="{{ qr }}" alt="Código QR del post {{ title }}">
-        {% endif %}
+        <hr>
+
+        <section>
+            <figure class="qr-container">
+                <figcaption>
+                    Este código QR contiene el enlace a esta misma página,
+                    utilizado en el material impreso del cartel.
+                </figcaption>
+                <img src="{{ qr }}"
+                     alt="Código QR del post {{ title }}"
+                     width="250">
+            </figure>
+
+        </section>
+
     </article>
 </main>
 
