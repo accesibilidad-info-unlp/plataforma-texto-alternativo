@@ -1,7 +1,7 @@
 ---
 layout: layouts/post.njk
 title: Estereotipos de género en la ciencia
-cover: cover.jpg
+image: image.jpg
 qr: qr.png
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: layouts/post.njk
 title: Hedy Lamarr
-cover: cover.jpg
+image: image.jpg
 qr: qr.png
 ---
 

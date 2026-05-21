@@ -1,7 +1,7 @@
 ---
 layout: layouts/post.njk
 title: Tecnología y Género
-cover: cover.jpg
+image: image.jpg
 qr: qr.png
 ---
 

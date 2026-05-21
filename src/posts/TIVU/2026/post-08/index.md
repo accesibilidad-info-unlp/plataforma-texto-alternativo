@@ -1,7 +1,7 @@
 ---
 layout: layouts/post.njk
 title: Evelyn Berezin
-cover: cover.jpg
+image: image.jpg
 qr: qr.png
 ---
 

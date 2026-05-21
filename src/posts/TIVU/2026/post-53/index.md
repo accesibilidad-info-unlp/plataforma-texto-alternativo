@@ -1,7 +1,7 @@
 ---
 layout: layouts/post.njk
 title: Estereotipos y Tecnología
-cover: cover.jpg
+image: image.jpg
 qr: qr.png
 ---
 

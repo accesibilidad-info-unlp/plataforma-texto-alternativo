@@ -1,7 +1,7 @@
 ---
 layout: layouts/post.njk
 title: Rebeca Cherep de G.
-cover: cover.jpg
+image: image.jpg
 qr: qr.png
 ---
 

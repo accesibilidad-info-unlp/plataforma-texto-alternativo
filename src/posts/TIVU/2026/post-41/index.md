@@ -1,7 +1,7 @@
 ---
 layout: layouts/post.njk
 title: Mujeres en la programación
-cover: cover.jpg
+image: image.jpg
 qr: qr.png
 ---
 

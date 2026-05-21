@@ -1,7 +1,7 @@
 ---
 layout: layouts/post.njk
 title: La desigualdad de género disminuye la capacidad de ver al otro como semejante
-cover: cover.jpg
+image: image.jpg
 qr: qr.png
 ---
 

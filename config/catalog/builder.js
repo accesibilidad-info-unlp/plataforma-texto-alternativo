@@ -19,7 +19,7 @@ export  function buildCatalogTree(collectionApi) {
 
         const filteredParts = parts.filter((p) => !isPostFolder(p));
 
-        filteredParts.forEach((segment, index) => {
+        filteredParts.forEach((segment) => {
             node = node.getOrCreateChild(segment, segment);
         });
 

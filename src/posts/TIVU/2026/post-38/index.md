@@ -1,7 +1,7 @@
 ---
 layout: layouts/post.njk
 title: Igualdad de género
-cover: cover.jpg
+image: image.jpg
 qr: qr.png
 ---
 
