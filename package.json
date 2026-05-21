@@ -4,20 +4,22 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "eleventy --serve",
+    "build": "eleventy",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mikrod-info/plataforma-texto-alternativo.git"
+    "url": "git+https://github.com/accesibilidad-info-unlp/plataforma-texto-alternativo.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "module",
   "bugs": {
-    "url": "https://github.com/mikrod-info/plataforma-texto-alternativo/issues"
+    "url": "https://github.com/accesibilidad-info-unlp/plataforma-texto-alternativo/issues"
   },
-  "homepage": "https://github.com/mikrod-info/plataforma-texto-alternativo#readme",
+  "homepage": "https://github.com/accesibilidad-info-unlp/plataforma-texto-alternativo#readme",
   "dependencies": {
     "@11ty/eleventy": "^3.1.5",
     "@picocss/pico": "^2.1.1"

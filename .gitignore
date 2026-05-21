@@ -1,5 +1,12 @@
+# eleventy build
+_site
+
+# env
+.env
+
+# IDE
 .idea
 .codex
-.env
+
+# node
 node_modules
-_site

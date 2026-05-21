@@ -1,10 +1,29 @@
+# docs
+README.md
+
+# eleventy
 _site
-node_modules
+
+# env
+.env
+
+# git
 .gitignore
 .git
 .github
+
+# IDE
 .idea
-README.md
-Dockerfile*
+.codex
+
+# infra
+infra/docker/Dockerfile*
+
+# local
 docker-compose.yml
+
+# logs
 *.log
+
+# node
+node_modules
