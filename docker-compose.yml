@@ -1,6 +1,8 @@
 services:
   eleventy:
-    build: .
+    build:
+      context: .
+      dockerfile: infra/docker/Dockerfile.dev
     user: "${UID:-1000}:${GID:-1000}"
     ports:
       - "8080:8080"
