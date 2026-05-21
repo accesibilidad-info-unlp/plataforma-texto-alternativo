@@ -1,6 +1,9 @@
 import { registerCollections } from "./config/collections.js";
 
 export default function (eleventyConfig) {
+  // árbol de posts
+  eleventyConfig.addPassthroughCopy("src/posts");
+  // assets globales
   eleventyConfig.addPassthroughCopy({
     "src/css": "css",
     "src/js": "js",

@@ -9,7 +9,15 @@
 
 <main id="main" class="container">
     <article>
+        {% if image %}
+        <img src="{{ image }}" alt="{{ title }}">
+        {% endif %}
+
         {{ content | safe }}
+
+        {% if qr %}
+        <img src="{{ qr }}" alt="Código QR del post {{ title }}">
+        {% endif %}
     </article>
 </main>
 
