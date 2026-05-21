@@ -14,12 +14,12 @@
     flex-wrap: wrap;
     gap: 1rem;
     align-items: center;
-    list-style: none;
     padding-inline-start: 0;
 }
 
 .footer-logos li {
     display: flex;
+    list-style: none;
 }
 
 .footer-logo {
