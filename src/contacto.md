@@ -3,7 +3,7 @@ layout: layouts/base.njk
 title: Contacto
 ---
 
-## Contacto, errores y sugerencias
+## Consultas, problemas de accesibilidad y sugerencias
 
 Este sitio es mantenido por la Dirección de Accesibilidad de la Facultad de Informática, UNLP.
 
