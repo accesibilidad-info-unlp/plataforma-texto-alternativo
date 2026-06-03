@@ -1,6 +1,6 @@
 # Plataforma de Texto Alternativo
 
-Imagen Docker de la Plataforma de Texto Alternativo, un sitio web estático destinado a publicar versiones accesibles de carteles educativos mediante códigos QR.
+Sitio web estático destinado a publicar textos alternativos de carteles educativos de la Facultad de Informática, UNLP.
 
 ## Características
 
