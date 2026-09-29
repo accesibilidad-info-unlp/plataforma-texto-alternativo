@@ -1,1 +1,1 @@
-# Material de entrada:w
+# Material de entrada
