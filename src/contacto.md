@@ -3,42 +3,55 @@ layout: layouts/base.njk
 title: Contacto
 ---
 
-## Consultas, problemas de accesibilidad y sugerencias
+La Dirección de Accesibilidad de la Facultad de Informática, UNLP, mantiene este sitio.
 
-Este sitio es mantenido por la Dirección de Accesibilidad de la Facultad de Informática, UNLP.
+Podés escribirnos para solicitar la publicación de un póster, reportar un problema o sugerir una mejora.
 
-Si encontrás un error en el texto alternativo de algún cartel, detectás un problema de accesibilidad o querés compartir una sugerencia, podés comunicarte con nosotros.
+## Correo electrónico
 
-### Correo electrónico
+Podés escribirnos a: [accesibilidad@info.unlp.edu.ar](mailto:accesibilidad@info.unlp.edu.ar)
 
-Podés escribirnos a:
+## Solicitar la publicación de pósters
 
-[accesibilidad@info.unlp.edu.ar](mailto:accesibilidad@info.unlp.edu.ar)
+Escribinos al correo electrónico con al menos tres días de anticipación a la fecha de exhibición. Incluí:
 
-### ¿Qué incluir en tu reporte?
+- Un enlace (Owncloud o Google Drive) al póster (pueden ser varios) en formato PNG de alta resolución y al archivo original en PDF o PPTX. Verificá que el enlace permita acceder a ambos archivos.
+- El título del póster, la lista de autores y materia/evento.
+- Si el póster contiene gráficos, diagramas o fórmulas, de ser posible, incluí además una explicación o descripción breve.
 
-Para ayudarnos a revisar el problema con mayor rapidez, puede ser útil incluir:
+El archivo resultante es publicado en la [Plataforma de textos accesibles](https://pta.linti.unlp.edu.ar/) junto a un código QR. 
 
-- el nombre, número del post o enlace
-- qué contenido presenta el problema
-- qué observaste o qué considerás que podría mejorarse
-- una propuesta de corrección o sugerencia, si la tenés
+Este código QR debe imprimirse y colocarse siempre en la misma ubicación junto al póster físico, para facilitar su localización y escaneo con un teléfono celular.
 
-No es necesario completar todos los puntos. Cualquier observación puede ayudarnos a mejorar el sitio.
+### Ejemplo de correo para solicitar publicación
 
-### Plantilla opcional para reportes
-
-Si querés, podés usar esta estructura al escribirnos:
-
-> **Cartel:** *nombre, número del post o enlace*
+> Asunto: Solicitud de publicación de un póster
 >
-> **Problema detectado:**  
-> *¿qué observaste?*
+> Hola,
 >
-> **Sugerencia de mejora:**  
-> *opcional*
+> Quisiera solicitar la publicación de una versión accesible del siguiente póster.
+> 
+> - Fecha en que se necesita el código QR:
+> - Título:
+> - Autores:
+> - Materia o evento:
+> - Enlace al póster y al archivo original:
+> - Aclaraciones sobre gráficos, diagramas o fórmulas complejas (opcional):
+> 
+> Saludos,
 
-### Ejemplo de mensaje usando la plantilla
+## Reportar un problema o enviar una sugerencia
+
+Para ayudarnos a revisar el reporte, incluí, si podés:
+
+- El título del cartel o el enlace a su publicación.
+- La sección o el contenido donde aparece el problema.
+- Qué observaste o qué considerás que podría mejorarse.
+- Una propuesta de corrección, si la tenés.
+
+No hace falta completar todos los puntos. Cualquier observación puede ayudarnos a mejorar el sitio.
+
+### Ejemplo de reporte o sugerencia
 
 > **Cartel:** TIVU 2026 — post-45
 >

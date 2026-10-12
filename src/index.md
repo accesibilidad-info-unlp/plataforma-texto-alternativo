@@ -22,6 +22,10 @@ Podés acceder a cada cartel:
 - escaneando el código QR presente en el material físico
 - navegando desde el catálogo del sitio
 
+## Solicitar la publicación de pósters
+
+En [Contacto](/contacto/) se indican los materiales necesarios y los pasos para solicitar una publicación.
+
 ## Carteles en uso
 
 Estos son algunos ejemplos de carteles físicos utilizados en la Facultad junto con los códigos QR que permiten acceder a su versión accesible.
