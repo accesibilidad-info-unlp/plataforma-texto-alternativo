@@ -103,6 +103,41 @@ Texto
 Texto
 ```
 
+## Nombres de carpetas, HTML y URLs generadas
+
+Los archivos de contenido se organizan en `src/posts` por categoría o materia, año y publicación. Eleventy usa la ruta y el nombre de cada archivo Markdown para generar el HTML. Como no se definen permalinks explícitos para las publicaciones, la URL se deriva de esa misma ruta.
+
+Por ejemplo, la ruta de origen, el archivo HTML generado y la URL pública de una publicación se relacionan así:
+
+```text
+Ruta:
+src/posts/semana-extension/2026/post-01/index.md
+
+HTML generado:
+_site/posts/semana-extension/2026/post-01/index.html
+
+URL generado:
+/plataforma-texto-alternativo/posts/semana-extension/2026/post-01/
+```
+
+Por este motivo, los nombres de carpetas forman parte de las URLs. Se recomienda que sean cortos, estén en minúsculas, no incluyan espacios ni tildes (acentos gráficos) y separen las palabras con guiones. Así se evitan espacios y caracteres acentuados codificados en las URLs. El nombre legible para el catálogo se define por separado en el `README.md` de cada carpeta directamente dentro de `src/posts`.
+
+Ese `README.md` funciona como índice de la categoría en el catálogo, no como el Markdown de una publicación. Su front matter puede incluir:
+
+```yaml
+---
+materia: Taller de Introducción a la Vida Universitaria
+title: TIVU
+type: index
+---
+```
+
+- `title`: etiqueta visible en el catálogo.
+- `materia`: texto complementario que se muestra como tooltip al pasar el cursor sobre la etiqueta. Puede contener el nombre desarrollado de una sigla; si no aporta una aclaración.
+- `type: index`: indica que el archivo cumple el rol de índice. Actualmente, el código reconoce el índice por el nombre `README.md`.
+
+El tooltip es complementario y puede no estar disponible en pantallas táctiles o con algunas tecnologías de asistencia. La información esencial debe estar disponible también en el contenido visible.
+
 ## Estructura del proyecto
 
 ```shell

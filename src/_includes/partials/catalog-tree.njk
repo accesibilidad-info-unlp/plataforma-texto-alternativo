@@ -8,13 +8,16 @@
         class="catalog-details"
         data-catalog-node
         data-catalog-level="{{ node.level }}"
-        data-catalog-path="{{ nodePath | escape }}"
-      >
-        <summary class="catalog-summary">
+        data-catalog-path="{{ nodePath | escape }}">
+        <summary class="catalog-summary" {% if node.index and node.index.data.materia %} title="{{ node.index.data.materia | escape }}" {% endif %}>
           <span class="catalog-label">
             {{ nodeLabel }}
           </span>
-          <span class="catalog-count" aria-label="{{ node.totalPosts }} publicaciones">{{ node.totalPosts }}</span>
+          <span class="catalog-count" 
+                aria-label="{{ node.totalPosts }} 
+                publicaciones">
+                {{ node.totalPosts }}
+          </span>
         </summary>
         <div>
           {%- if node.posts.length -%}
