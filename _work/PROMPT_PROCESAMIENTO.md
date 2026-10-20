@@ -100,16 +100,6 @@ Preferí indicaciones simples, como:
 - `[lado izquierdo]`
 - `[lado derecho]`
 
-Cuando sea necesario expresar una relación entre elementos, podés utilizar:
-
-- `[arriba de]`
-- `[debajo de]`
-- `[a la izquierda de]`
-- `[a la derecha de]`
-- `[junto a]`
-- `[entre]`
-- `[alrededor de]`
-
 ## Formato textual
 
 Conservá mediante Markdown las características estructurales relevantes del contenido.
