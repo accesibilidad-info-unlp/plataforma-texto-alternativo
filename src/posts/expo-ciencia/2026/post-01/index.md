@@ -1,6 +1,6 @@
 ---
 layout: layouts/post.njk
-title: 
+title: Construcción de sistemas RAG
 image: image.jpg
 qr: qr.png
 ---

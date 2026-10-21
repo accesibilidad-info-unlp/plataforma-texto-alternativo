@@ -1,6 +1,6 @@
 ---
 layout: layouts/post.njk
-title: 
+title: Una estación inteligente de residuos para la Facultad
 image: image.jpg
 qr: qr.png
 ---

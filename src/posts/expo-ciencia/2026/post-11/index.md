@@ -1,6 +1,6 @@
 ---
 layout: layouts/post.njk
-title: 
+title: Sistemas de navegación y asistencia autónoma
 image: image.jpg
 qr: qr.png
 ---

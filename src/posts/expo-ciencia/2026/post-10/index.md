@@ -1,6 +1,6 @@
 ---
 layout: layouts/post.njk
-title: 
+title: Uso de NLP, AI y LLMs a textos semiestructurados para mejorar la calidad y extraer información
 image: image.jpg
 qr: qr.png
 ---

@@ -1,6 +1,6 @@
 ---
 layout: layouts/post.njk
-title: 
+title: Compañero háptico con IA generativa para ayudar a la autorregulación de personas neurodivergentes
 image: image.jpg
 qr: qr.png
 ---

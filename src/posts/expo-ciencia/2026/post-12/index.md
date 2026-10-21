@@ -1,6 +1,6 @@
 ---
 layout: layouts/post.njk
-title: 
+title: Juegos serios con objetos interactivos vinculados con el área de salud
 image: image.jpg
 qr: qr.png
 ---

@@ -1,6 +1,6 @@
 ---
 layout: layouts/post.njk
-title: 
+title: Mapa interactivo accesible e inteligente de la Facultad de Informática
 image: image.jpg
 qr: qr.png
 ---

@@ -1,6 +1,6 @@
 ---
 layout: layouts/post.njk
-title: 
+title: Auditor inteligente de accesibilidad con IA
 image: image.jpg
 qr: qr.png
 ---

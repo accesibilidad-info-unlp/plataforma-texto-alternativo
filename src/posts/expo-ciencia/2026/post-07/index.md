@@ -1,6 +1,6 @@
 ---
 layout: layouts/post.njk
-title: 
+title: IA en los procesos de accesibilización de materiales educativos
 image: image.jpg
 qr: qr.png
 ---

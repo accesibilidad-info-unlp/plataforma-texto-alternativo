@@ -1,6 +1,6 @@
 ---
 layout: layouts/post.njk
-title: 
+title: Aplicaciones móviles 3D, realidad virtual y realidad aumentada
 image: image.jpg
 qr: qr.png
 ---

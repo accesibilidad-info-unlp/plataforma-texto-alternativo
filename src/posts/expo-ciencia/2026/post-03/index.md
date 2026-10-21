@@ -1,6 +1,6 @@
 ---
 layout: layouts/post.njk
-title: 
+title: Integración de robots y nodos sensores a servicios y plataformas
 image: image.jpg
 qr: qr.png
 ---
