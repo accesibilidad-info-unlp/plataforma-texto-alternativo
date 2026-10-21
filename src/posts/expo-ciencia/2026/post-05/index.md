@@ -1,6 +1,6 @@
 ---
 layout: layouts/post.njk
-title: Dark Patterns: la web del engaño y el rol de la IA
+title: Dark Patterns, la web del engaño y el rol de la IA
 image: image.jpg
 qr: qr.png
 ---
