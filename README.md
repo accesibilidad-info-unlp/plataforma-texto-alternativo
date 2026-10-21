@@ -103,6 +103,24 @@ Texto
 Texto
 ```
 
+## Agregar frontmatter
+
+Moverse a la carpeta que contiene los archivos revisados y correr este comando
+
+```bash
+for f in ./*.md; do   awk 'BEGIN {
+  print "---"
+  print "layout: layouts/post.njk"
+  print "title: "
+  print "image: image.jpg"
+  print "qr: qr.png"
+  print "---"
+  print ""
+} { print }' "$f" > "$f.tmp" && mv "$f.tmp" "$f"; done
+```
+
+## Agregar
+
 ## Nombres de carpetas, HTML y URLs generadas
 
 Los archivos de contenido se organizan en `src/posts` por categoría o materia, año y publicación. Eleventy usa la ruta y el nombre de cada archivo Markdown para generar el HTML. Como no se definen permalinks explícitos para las publicaciones, la URL se deriva de esa misma ruta.
@@ -227,4 +245,3 @@ El tooltip es complementario y puede no estar disponible en pantallas táctiles 
 ## Demo
 
 [Plataforma de texto alternativo](https://mikrod-info.github.io/plataforma-texto-alternativo/)
-

@@ -1,0 +1,123 @@
+---
+layout: layouts/post.njk
+title: 
+image: image.jpg
+qr: qr.png
+---
+
+# Construcción de sistemas RAG
+
+## Texto transcrito
+
+[Parte superior]
+
+12 EXPO CIENCIA Y TECNOLOGÍA
+
+PROYECTOS DE DESARROLLO E INNOVACIÓN 2026
+
+**CONSTRUCCIÓN DE SISTEMAS RAG**
+
+**Aspectos de ingeniería de software en proyectos con IA**
+
+AUTORES:
+
+- An. Ladislao Bordon
+- An. Andrés Murray Roppel
+- Francisco Suarez
+- Valentino Turconi
+- Luca Giordano
+- Miguel Miesionznik
+- Alexia Begue
+- Salvador Karakachoff
+- Lautaro Gutiérrez
+- Damián Bicocchi
+- Lucas Corbalan Saez
+
+DIRECTORES:
+
+- Dr. Joaquin Bogado
+- Dra. Alejandra Garrido
+- Dra. Claudia Pons
+
+**MOTIVACIÓN**
+
+¿Alguna vez le preguntaste algo a una inteligencia artificial y te inventó una respuesta con total seguridad?
+
+Las IA como ChatGPT no conocen los documentos propios de una organización y, cuando no saben algo, a veces inventan. Un sistema RAG (Generación Aumentada por Recuperación) funciona como un examen a libro abierto: antes de responder, busca en esos documentos y responde basándose en lo que encontró.
+
+Diseñar uno que funcione en una demo es relativamente sencillo. Diseñar uno confiable, no. Este proyecto busca entender cuáles son los aspectos de Ingeniería de Software específicos de este tipo de sistemas, a través del diseño e implementación de diferentes proyectos donde intervengan los sistemas RAG.
+
+**TRABAJO REALIZADO**
+
+[Columna izquierda]
+
+¿Cómo funciona un RAG?
+
+Como en un examen a libro abierto, el sistema consulta los documentos antes de responder:
+
+1. Hacés una pregunta
+2. El sistema busca en los documentos
+3. Elige los fragmentos más útiles
+4. La IA responde usando esos fragmentos
+
+¿Qué estudiamos?
+
+- Requerimientos: qué problemas puede resolver un RAG y cuáles no
+- Elección del modelo: el “más inteligente” no siempre es el mejor; también importan la velocidad, el costo y el idioma
+- Preparación de los documentos: cómo cortarlos en fragmentos que se entiendan por sí solos
+- Pruebas: cómo evaluar respuestas abiertas, que no tienen una única respuesta correcta. Correctitud de respuestas. Métricas
+- Optimizaciones: muchos sistemas requieren optimizaciones específicas. Tiempo de respuesta, UX, coste, privacidad, sistemas de bajos recursos
+
+[Columna derecha]
+
+Proyectos:
+
+Asistente de emergencias viales
+
+Un asistente por voz que guía a quien presencia un accidente de tránsito: le indica qué hacer con un herido según manuales de primeros auxilios y avisa al 911.
+
+Sistemas de RAG en videojuegos de rol
+
+Se propone una arquitectura de Generación Aumentada por Recuperación optimizada para la interacción con personajes no jugables mediante ejecución local concurrente con el motor del videojuego. La solución se articula sobre tres premisas técnicas: la delimitación estricta del conocimiento mediante la consulta exclusiva de los guiones individuales de cada entidad; la integración de un contexto dinámico que modifica las respuestas según las pistas y eventos descubiertos por el jugador; y la implementación de una infraestructura hiperliviana que minimiza el uso de recursos computacionales para garantizar una experiencia inmersiva, coherente y libre de latencia.
+
+RAG de ciberseguridad
+
+Analizar vulnerabilidades y configuraciones internas mediante inteligencia artificial en la nube expone datos críticos a servidores de terceros, incrementando el riesgo de filtraciones y reduciendo el control sobre la información. Para mitigar este problema, se propone un sistema RAG ejecutado localmente, capaz de consultar bases de conocimiento técnico de manera precisa y completamente offline, generando diagnósticos y estrategias de mitigación sin que los datos confidenciales abandonen el entorno.
+
+[Parte inferior izquierda]
+
+RESUMEN Y PALABRAS CLAVES
+
+Estudiamos cómo construir sistemas RAG, que permiten a una IA responder usando los documentos de una organización, y qué desafíos de ingeniería de software plantean.
+
+Palabras clave: inteligencia artificial, RAG, modelos de lenguaje, ingeniería de software.
+
+[Parte inferior derecha]
+
+CONCLUSIONES
+
+- Construir GuardRails es vital para lograr que el sistema cumpla su propósito
+- Probar respuestas abiertas es el mayor desafío
+- Los problemas de ingeniería de software para estos sistemas tiene un overlap con sistemas tradicionales
+- Es importante la traducción de requisitos funcionales a métricas que comprueben que dichos requisitos se satisfacen
+
+[Franja inferior]
+
+LIDI, LIFIA, LINTI
+UNIVERSIDAD NACIONAL DE LA PLATA
+
+## Descripción de imagen
+
+[Columna izquierda, sección «Trabajo realizado»]
+
+Una ilustración de un teléfono móvil que muestra una interfaz de un asistente de ciberseguridad. A ambos lados del teléfono hay globos de diálogo de colores con fragmentos de texto. En el diálogo, una persona hace una consulta y un agente asiste y hace una sugerencia en base a información documentada.
+
+[Columna derecha, sección «Sistemas de RAG en videojuegos de rol»]
+
+Una imagen rectangular muestra una escena de un videojuego de rol en un entorno interior, con personajes humanos representados digitalmente. En la parte inferior se observan subtítulos superpuestos sobre la escena.
+
+## Descripción general
+
+El cartel presenta un proyecto sobre la construcción de sistemas de Generación Aumentada por Recuperación (RAG) y los desafíos de ingeniería de software asociados a su desarrollo.
+
+La composición se organiza en dos columnas debajo del título principal. La sección de motivación ocupa el ancho completo, mientras que la sección de trabajo realizado se divide en explicaciones, diagramas y ejemplos de aplicación. En la parte inferior, el resumen y las palabras clave se encuentran a la izquierda, y las conclusiones a la derecha.

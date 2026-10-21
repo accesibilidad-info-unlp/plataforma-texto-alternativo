@@ -1,0 +1,97 @@
+---
+layout: layouts/post.njk
+title: 
+image: image.jpg
+qr: qr.png
+---
+
+# Una estación inteligente de residuos para la Facultad
+
+## Texto transcrito
+
+[Parte superior]
+
+12 EXPO CIENCIA Y TECNOLOGÍA
+
+PROYECTOS DE DESARROLLO E INNOVACIÓN 2026
+
+AUTORES: 
+- Chaves, Santiago
+- Del Blanco, Javier
+- Salanitro, Lucas
+- Geringer, Matías
+
+DIRECTORAS: 
+- Kimura, Isabel
+- Queiruga, Claudia
+
+**MOTIVACIÓN**
+
+El proyecto aborda la problemática de la gestión de residuos urbanos en la comunidad de la Facultad de Informática, donde la generación de desechos, especialmente los sólidos urbanos, pone en evidencia la necesidad de pensar en soluciones sostenibles que colaboren en la cadena productiva de la Economía Circular.
+
+En este marco, en la 11va Expo de Ciencia y Tecnología (2025), se presentó un prototipo funcional de una estación inteligente de residuos que combina técnicas de aprendizaje automático, programación de microprocesadores y servicios web para clasificar automáticamente materiales reciclables inorgánicos usando un modelo de aprendizaje entrenado con imágenes provenientes de datasets públicos y fotos tomadas localmente.
+
+Esta nueva iteración del proyecto buscó mejorar el prototipo, tanto su componente física como el modelo de clasificación de imágenes e incorporó una aplicación móvil integrada a la estación que, mediante técnicas de gamificación, promueve en la comunidad de la Facultad, la correcta separación de los residuos y la concientización ambiental.
+
+**TRABAJO REALIZADO**
+
+Punto de partida - Etapa 2025
+
+Se desarrolló un prototipo funcional que consistió en:
+
+- Modelo de aprendizaje automático: para clasificar imágenes de los materiales reciclables (cartón, papel, metal y plástico) típicamente generados en la Facultad. El modelo utilizado fue EfficientNetV2S (red neuronal)
+- Datos de entrenamiento: compuesto por 3180 imágenes provenientes del dataset público TrashNet y fotos tomadas localmente por estudiantes de la EEST N°9
+- Servidor web: desarrollado en Django/Python para capturar imágenes desde la cámara web y mostrar la clasificación
+- Hardware IoT: placa Arduino Uno (ATmega328P) conectada al servidor por cable USB mediante comunicación serie UART
+
+Evolución y Mejoras - Etapa 2026
+
+Se incorporaron mejoras y nuevas componentes:
+
+- Modelo de aprendizaje automático: se re-entrenó el modelo migrando a YOLOv8m y se redujo notablemente la confusión entre materiales reflectantes y transparentes
+- Datos de entrenamiento: se sumaron 500 imágenes locales capturadas en la Facultad, llegando a 3.680 en total
+- API REST: se desarrolló en Django/Python con 16 endpoints que dan soporte a la lógica de gamificación. Se integró al servidor web
+- Hardware IoT Inalámbrica: se reemplazó el microcontrolador por un módulo ESP8266 (NodeMCU) con alimentación eléctrica independiente y comunicación inalámbrica vía Wi-Fi con el servidor web
+- Aplicación móvil nativa y gamificación: se desarrolló una aplicación móvil nativa en Android/Kotlin que implementa estrategias de gamificación. Para ello consume de la API REST funcionalidades de gestión usuarios/as, reclamos de residuos, puntos, niveles y accesorios del avatar del usuario/a
+- Estrategia de gamificación:
+  - Inspirada en el videojuego para móviles *Pou*
+  - Mecánica lúdica: periódicamente se genera basura en el jardín del avatar del usuario/a; para limpiarla debe reclamarse un residuo y reciclar utilizando la estación física
+  - Reclamo de residuos vía QR: mediante la cámara del dispositivo móvil se escanea el QR emitido por la estación, acreditando puntos al usuario/a, restando residuos del jardín y subiendo de nivel para desbloquear mejoras y accesorios
+  - Compromiso comunitario: incluye rankings individuales, visualización de estadísticas colectivas de reciclaje y mapas de localización de estaciones en la Facultad
+
+[Parte inferior izquierda]
+
+RESUMEN Y PALABRAS CLAVES
+
+En esta iteración del proyecto se presenta la evolución de la estación inteligente de residuos de la Facultad de Informática, destacando tres mejoras principales: la optimización del modelo de aprendizaje, el reemplazo del hardware IoT por un nodo autónomo (ESP8266 vía Wi-Fi) para la señalización en los compartimentos, y la creación de una aplicación móvil Android/Kotlin con dinámicas de gamificación con la intención de promover en la comunidad de la Facultad el uso de la estación y colaborar en el eslabón de la clasificación de residuos sólidos urbanos de la economía circular.
+
+Palabras claves: Economía Circular, Aprendizaje Automático, Hardware IoT, Gamificación
+
+[Parte inferior derecha]
+
+CONCLUSIONES Y TRABAJO FUTURO
+
+En esta iteración del proyecto se mejoró y amplió el alcance de la estación inteligente de residuos. Más allá de la resolución técnica y la independencia del cableado lograda en esta etapa, el valor central radica en cómo las dinámicas lúdicas (puntos, niveles y metas colectivas) impulsarían la participación activa y la concientización ambiental en la comunidad de la Facultad. Como líneas futuras se proyecta la automatización de las compuertas de la estación de residuos, la realización de pruebas de validación con usuarios/as y medir el uso a gran escala de la estación en la Facultad.
+
+[Franja inferior]
+
+LIDI, LIFIA  Y LINTI
+UNIVERSIDAD NACIONAL DE LA PLATA
+
+## Descripción de imagen
+
+[Sección «Trabajo realizado», etapa 2025]
+
+Un diagrama ilustra el funcionamiento del prototipo inicial. Se observa una cámara que captura imágenes de residuos, un equipo que procesa la información y una representación de la clasificación obtenida. También aparece una placa electrónica conectada a otros componentes.
+
+[Sección «Trabajo realizado», etapa 2026]
+
+Un diagrama muestra la interacción entre la estación física, los servicios informáticos y la aplicación móvil mediante conexiones inalámbricas y códigos QR.
+
+Debajo se presentan capturas de pantalla de la aplicación móvil. Una de ellas muestra una interfaz con elementos relacionados con el reciclaje y la gestión de residuos; otras muestran un jardín virtual con elementos lúdicos, un avatar y pantallas de estadísticas y progresión del usuario.
+
+## Descripción general
+
+El cartel presenta la evolución de una estación inteligente de residuos desarrollada para la Facultad de Informática. El proyecto combina aprendizaje automático para clasificar materiales reciclables, hardware IoT para la comunicación con el servidor y una aplicación móvil con elementos de gamificación para incentivar el reciclaje.
+
+La composición se organiza en dos grandes etapas de desarrollo: el prototipo inicial de 2025 y las mejoras incorporadas en 2026. En la parte inferior se presentan el resumen, las palabras clave y las conclusiones con las líneas de trabajo futuro.
